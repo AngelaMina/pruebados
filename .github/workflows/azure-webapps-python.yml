@@ -84,3 +84,8 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          
+      - name: Start Python Application
+        run: |
+          # Start your Python application (replace with the actual command)
+          streamlit run app.py
