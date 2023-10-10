@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'pruebaamazon'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DA74D2E37F68432999D0D20779B7B5B3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9100D1021F274CC59D937E4F112530B0 }}
