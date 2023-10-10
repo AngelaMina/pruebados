@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - Pruebaunoamazon
 on:
   push:
     branches:
-      - main
+      - manual
   workflow_dispatch:
 
 jobs:
