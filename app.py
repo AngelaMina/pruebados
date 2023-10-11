@@ -129,7 +129,6 @@ with st.container():
     st.write("---")
 
     st.header("SISTEMA DE RECOMEDACIÓN")
-
 # 7 contenedor
 
 with st.container():
